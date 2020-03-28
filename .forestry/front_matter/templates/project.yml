@@ -26,3 +26,20 @@ fields:
   showOnly:
     field: online
     value: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: roles
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Roles
+  description: Enter multiple roles if needed.
