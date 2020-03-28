@@ -37,6 +37,12 @@ fields:
   label: Description
 - name: roles
   type: field_group_list
+  fields:
+  - name: role
+    type: text
+    config:
+      required: false
+    label: Role
   config:
     min: 
     max: 
