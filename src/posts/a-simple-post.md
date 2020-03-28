@@ -1,7 +1,9 @@
 ---
-title: A simple postie
-date: 2019-06-18
+title: This is a simple post
+date: 2020-03-27
 tags:
+- eleventy
+- hylia
 - demo-content
 - simple-post
 - blog
