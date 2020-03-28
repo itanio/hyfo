@@ -1,4 +1,28 @@
 ---
 label: Project
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: main_image
+  type: file
+  config:
+    maxSize: 250
+  label: Main image
+  description: Appears in the project archive.
+- name: online
+  type: boolean
+  description: Is the project available to view online?
+  label: Online
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
+  description: URL to the live project
+  showOnly:
+    field: online
+    value: true
