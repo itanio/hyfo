@@ -7,3 +7,5 @@ tags:
 
 ---
 Testing the publishing features is easy!
+
+![Bill Murray](https://www.fillmurray.com/g/410/212)
